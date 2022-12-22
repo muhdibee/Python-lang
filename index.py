@@ -12,3 +12,4 @@ class Puppy:  # create a class called Puppy
 
 zion = Puppy('zion', 'lizard')  # Create instance member of class Puppy.
 print(zion.name)
+print()
