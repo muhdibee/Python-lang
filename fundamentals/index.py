@@ -30,3 +30,14 @@ print("20//3 = ", 2//3)
 print("2%3 = ", 2 % 3)
 print("2+3 = ", 2+3)
 print("2-3 = ", 2-3)
+
+# Working with functions
+
+
+def wash_car():
+    print("1. Wash with tri-color foam")
+    print("2. Rinse twice")
+    print("3. Dry with large blow dryer")
+
+
+wash_car()
