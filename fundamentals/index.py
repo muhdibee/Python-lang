@@ -15,11 +15,18 @@ print('Variable type for ', age, ' is ', type(age))
 
 # Comparison and if else statement
 print('Hi!')
-name = input('Whats your name? ')
+# name = input('Whats your name? ')
 print('Nice to meet you. ', name)
-response = input('Are you enjoying the course.')
+response = input('Are you enjoying the course?')
 
-if response == 'Yes':
+if response == 'Yes' or 'yes' or 'Y' or 'y':
     print("That's good to hear!")
 else:
     print("Oh no! That's sad to hear.")
+
+# Mathematical operation:
+print("2**3 = ", 2**3)
+print("20//3 = ", 2//3)
+print("2%3 = ", 2 % 3)
+print("2+3 = ", 2+3)
+print("2-3 = ", 2-3)
