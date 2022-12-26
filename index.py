@@ -1,4 +1,5 @@
-print('Hello Word')  # Print a string
+# Print a string
+print('Hello Word')
 
 # Create a class
 

@@ -13,3 +13,6 @@ california_symbols = {
     'flower': 'California poppy',
     'fruit': 'Avocado',
 }
+
+# Access an element in a list.
+print(cities[1])
