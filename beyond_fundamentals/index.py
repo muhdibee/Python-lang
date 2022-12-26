@@ -27,3 +27,11 @@ multiply_module.multiply(3, 10)
 # Accessing number inputs.
 num = int(input('Enter a number: '))
 print(f'square of {num} is {num * num}')
+
+# Working with strings.
+first_name = 'malala'
+last_name = 'yousafzai'
+note = 'award: Nobel Peace Prize'
+
+print(first_name.capitalize())
+print(last_name.capitalize())
