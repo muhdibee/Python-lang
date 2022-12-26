@@ -1,3 +1,4 @@
+import multiply_module
 # Creating list. Also called array in JavaScript
 cities = [
     'Tokyo',
@@ -19,3 +20,6 @@ print(cities[1])
 
 # Access an element in a dictionary.
 print(california_symbols['flower'])
+
+# Using multiply function from multiply_module.
+multiply_module.multiply(3, 10)
