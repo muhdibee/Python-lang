@@ -41,3 +41,7 @@ print("AW: ", award_location)
 
 # print the characters from index 7 to the end of string.
 print(f'Award text: {note[7:]}.')
+
+
+for value in range(10):
+    print(value)

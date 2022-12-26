@@ -10,3 +10,6 @@ five_digit_expression = r'\d{5}'
 print(re.search(five_digit_expression, five_digit_zip))  # Returns a match.
 print(re.search(five_digit_expression, nine_digit_zip))  # Returns a match.
 print(re.search(five_digit_expression, phone_number))   # REturns none.
+
+for value in range(10):
+    print(value)
