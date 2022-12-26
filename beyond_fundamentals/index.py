@@ -23,3 +23,7 @@ print(california_symbols['flower'])
 
 # Using multiply function from multiply_module.
 multiply_module.multiply(3, 10)
+
+# Accessing number inputs.
+num = int(input('Enter a number: '))
+print(f'square of {num} is {num * num}')
