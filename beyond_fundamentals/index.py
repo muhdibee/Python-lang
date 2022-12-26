@@ -25,8 +25,8 @@ print(california_symbols['flower'])
 multiply_module.multiply(3, 10)
 
 # Accessing number inputs.
-num = int(input('Enter a number: '))
-print(f'square of {num} is {num * num}')
+# num = int(input('Enter a number: '))
+# print(f'square of {num} is {num * num}')
 
 # Working with strings.
 first_name = 'malala'
@@ -35,3 +35,6 @@ note = 'award: Nobel Peace Prize'
 
 print(first_name.capitalize())
 print(last_name.capitalize())
+
+# print the characters from index 7 to the end of string.
+print(f'Award text: {note[7:]}.')
