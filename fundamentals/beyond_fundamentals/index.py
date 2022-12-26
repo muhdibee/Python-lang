@@ -16,3 +16,6 @@ california_symbols = {
 
 # Access an element in a list.
 print(cities[1])
+
+# Access an element in a dictionary.
+print(california_symbols['flower'])
