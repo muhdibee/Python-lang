@@ -19,7 +19,7 @@ print('Hi!')
 print('Nice to meet you. ', name)
 response = input('Are you enjoying the course?')
 
-if response == 'Yes' or 'yes' or 'Y' or 'y':
+if response == ('Yes' or 'yes' or 'Y' or 'y'):
     print("That's good to hear!")
 else:
     print("Oh no! That's sad to hear.")
