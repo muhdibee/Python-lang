@@ -36,5 +36,8 @@ note = 'award: Nobel Peace Prize'
 print(first_name.capitalize())
 print(last_name.capitalize())
 
+award_location = note.find('award: ')
+print("AW: ", award_location)
+
 # print the characters from index 7 to the end of string.
 print(f'Award text: {note[7:]}.')
